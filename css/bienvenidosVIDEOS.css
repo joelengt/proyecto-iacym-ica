@@ -1,0 +1,121 @@
+.back-videos
+{
+	overflow: hidden;
+	background: rgba(247, 247, 247, 0.76);
+}
+.centradi 
+{
+  padding-top: .2em;
+  text-align: center;
+  width: 100%;
+}
+.styleA
+{
+  font-size: 3.1em;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(5, 224, 208);
+}
+.styleB
+{
+  font-size: 3.1em;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(73, 73, 73);
+}
+.styleC
+{
+  font-size: 3.1em;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(73, 73, 73);	
+}
+.V1
+ {
+  position: relative;
+  padding-bottom: 69.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  float: none;
+}
+.V1 iframe,
+.V1 object,
+.V1 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1em;
+  float: none;
+}
+
+@media(min-width: 500px){
+.V1 
+{
+  position: relative;
+  padding-bottom: 341px;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 477px;
+  float: none;
+  margin: 0 auto;
+}
+.V1 iframe,
+.V1 object,
+.V1 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 477px;
+  height: 354px;
+  padding-top: 1em;
+  float: none;
+}
+@media(min-width: 700px){
+.V1 {
+  position: relative;
+  padding-bottom: 31%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 45%;
+  float: left;
+  margin: 0px auto;
+  margin-left: 2.1em;
+}
+.V1 iframe,
+.V1 object,
+.V1 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 1em; */
+  /* float: left; */
+}
+@media(min-width: 1025px){
+.V1 {
+  position: relative;
+  padding-bottom: 21%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 30%;
+  float: left;
+  margin: 0px auto;
+  margin-left: 2.1em;
+}
+.V1 iframe,
+.V1 object,
+.V1 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 1em; */
+  /* float: left; */
+}
+}

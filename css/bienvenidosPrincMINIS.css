@@ -1,0 +1,67 @@
+body 
+{
+  margin: 0px;
+  background: rgb(232, 232, 232);
+}
+.image111 {
+  width: 100%;
+  max-width: 100%;
+}
+.Mimg
+{
+	max-width: 100%;
+}
+#botines {
+  max-width: 100%;
+}
+.contenedorPadre
+{
+	overflow: hidden;
+}
+.cajitas11 
+{
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+}
+.botonEnterate {
+  position: relative;
+  top: -90px;
+  margin-left: 15.4%;
+  width: 70%;
+}
+@media(max-width:875px){
+.cajitas11 {
+  width: 46%;
+  margin-left: 2.5%;
+  float: left;
+}
+}
+@media(max-width:600px){
+.cajitas11 {
+  width: 340px;
+  margin-left: -11.5%;
+  float: none;
+  margin: 0 auto;
+}
+.Mimg {
+   max-width: 100%;
+}
+}
+
+@media(max-width:1190px){
+.botonEnterate {
+  position: relative;
+  top: -69px;
+  margin-left: 15.4%;
+  width: 70%;
+}
+}
+@media(max-width:600px){
+.botonEnterate {
+  position: relative;
+  top: -88px;
+  margin-left: 15.4%;
+  width: 67%;
+}
+}

@@ -1,114 +1,140 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-	<title>Iglesia Alianza Cristiana y Misionera-Ica</title>
-	<meta charset="UFT-8" />
-	<!--Links de  lectura de datos del css-->
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-     <link rel="stylesheet" type="text/css" href="css/BIENVENIDA.css">
-      <link rel="stylesheet" type="text/css" href="css/PiePagina.css">  
-      <link rel="stylesheet" type="text/css" href="css/cuerpoFondo.css"> 
-<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
-<link href="css/style3.css" rel="stylesheet" type="text/css">
-    <!--Lectura de fuentes de letras-->
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="images/imageico.png" />
+	<title>Iglesia Alianza Cristiana y Misionera de Ica</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=3"/>
+	<!--el favicom-->
+ 	<link rel="icon" type="image/png" href="images/imageico.png" />
+	<link href='http://fonts.googleapis.com/css?family=Questrial|Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/headerPrincipal.css">
+	<link rel="stylesheet" type="text/css" href="styleMenu.css">
+	<link rel="stylesheet" type="text/css" href="css/cuerpocentral.css">
+	<link rel="stylesheet" type="text/css" href="css/bienvenidosCONTACTOS.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<!--ENLACES DEL SLIDER-->
+	<link rel="stylesheet" href="css/flexslider.css">
+  		 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  		 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider({
+        controlsContainer: '.flex-container'
+    });
+  });
+</script>
+ <link rel="stylesheet" type="text/css" href="styleMenu.css">
+ <!--viculo de redes sociales para el footer-->
+ <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+ <link rel="stylesheet" type="text/css" href="css/iconitos.css">
+ <link rel="stylesheet" type="text/css" href="css/ICONITOSSUPER.CSS">
+
+ <link href='http://fonts.googleapis.com/css?family=Lato|Roboto+Condensed' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="css/logo_main.css">
 </head>
 <body>
-	<header id="HeaderPrincipal">
+	<header class="headerPrincipal">
 	<h1>
-		<a href="index.html"><img src="images/recursos/logoali.png"></a>
+		<a href="http://www.alianzaica.com/"><img class="logo_main" src="images/recursos/logoali.png"></a>
 	</h1>
+	<nav id="navPrincipal">
+			<ul>
+				<li><a href="nosotros">NOSOTROS</a></li>
+				<li><a href="ministerios">MINISTERIOS</a></li>
+				<li><a href="servicios">SERVICIOS</a></li>
+				<li><a href="celular">CELULAR</a></li>
+				<li><a href="noticias">NOTICIAS</a></li>
+				<li><a href="recursos">RECURSOS</a></li>
+				<li><a href="contactos">CONTACTOS</a></li>
+			</ul>
+		</nav>		
+            <a href="#" id="mostrar-form" class="mostrar-form">MENU
+			<span class="ME-menu"></span></a>	
 	</header>
-<section id="barra">
+	<section>
+
+		<div class="menu_movil" id="formulario">
+			<nav class="nav_movil">
+			<ul>
+				<li><a href="nosotros">NOSOTROS</a></li>
+				<li><a href="ministerios">MINISTERIOS</a></li>
+				<li><a href="servicios">SERVICIOS</a></li>
+				<li><a href="celular">CELULAR</a></li>
+				<li><a href="noticias">NOTICIAS</a></li>
+				<li><a href="recursos">RECURSOS</a></li>
+				<li><a href="contactos">CONTACTOS</a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id="bienvenidosCONTACTOS">
+				<h2 id="tittle22">CONTACTO</h2>
+			<h3 id="subpala">"ESTAMOS MÁS CERCA DE TI"</h3>
+			<div class="datos_contactos"id="datos">
+			<div class="dentroZ">
+				<div class="asu1">
+					<h2 class="titu"><span class="icon-home"></span> ¿COMO LLEGO?</h2>
+					<h3 class="contenido">Av. Fernando León</br>Arechua N°344 Frente al ADCIJEI</h3>
+				</div>
+				<div class="asu1">
+					<h2 class="titu"><span class="icon-phone"></span> TELEFONO</h2>
+					<h3 class="contenido">056231944</h3>
+				</div>	
+				<div class="asu1">
+					<h2 class="titu"><span class="icon-envelope"></span> CORREO</h2>
+					<h3 class="contenido">iacym-ica@hotmail.com</h3>
+				</div>
+				<div class="asu1">
+					<h2 class="titu"><span class="icon-bullhorn"></span> REDES SOCIALES</h2>
+					<h3 class="contenido">Encuentranos en las principales </br>Redes Sociales:</h3>
+				</div>				
+				<div id="iconoooos2">
+					<div class="caja-redes">
+				   <a href="https://twitter.com/LaAJuvenil" class="icon-button twitter" target="_blank"><i class="icon-twitter"></i><span></span></a>
+				   <a href="https://www.facebook.com/alianzaica" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
+				   <a href="https://plus.google.com/112488149102916249049/posts" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span></span></a>
+					</div>
+			     </div>
+			     </div>
+		 </div>
+				<div id="mapagoogle">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m8!1m3!1d3870.2390378831324!2d-75.73362846610169!3d-14.063057163927626!3m2!1i1024!2i768!4f13.1!4m12!1i0!3e6!4m3!3m2!1d-14.0636953!2d-75.729351!4m5!1s0x9110e2bf6b691589%3A0x7771b0b7d9b15d2a!2sAlianza+Cristiana+y+Misionera%2C+Fernando+Leon+Arechua%2C+Ica!3m2!1d-14.062733999999999!2d-75.735976!5e0!3m2!1ses!2spe!4v1418757666749" width="320" height="350" frameborder="0" style="border:0"></iframe>
+				</div>
+		</div>
 		
 	</section>
-	<section id="cuerpodelnav">
-	<nav id="NavPrincipal">
-        <div>
-            <ul class="nav">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="">Sobre Nosotros</a>
-                    <ul>
-                        <li><a href="vision.html">Vision</a></li>
-                        <li><a href="mision.html">Mision</a></li>
-                        <li><a href="historia.html">Historia</a></li>
-                        <li><a href="PastoresLiderazgo.html">Pastores/Liderazgo</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="">Ministerios</a>
-                    <ul>
-                        <li><a href="MdeNinos.html">Minis.de Ninos</a></li>
-                        <li><a href="MdeAdolescentes.html">Minis. de adolescentes</a></li>
-                        <li><a href="MdeJovenes.html">Minis. de Jovenes</a></li>
-                        <li><a href="MdeMatrimonios.html">Minis. de Matrimonios</a></li>
-                    </ul>
-                </li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="TrabajoZonal.html">Trabajo Zonal</a></li>
-                <li><a href="Noticias.html">Noticias</a></li>
-                <li><a href="">Recursos</a>
-                        <ul>
-                        <li><a href="AcademiaBiblica.html">Academia Biblica</a></li>
-                        <li><a href="Videos.html">Videos</a></li>
-                        <li><a href="AudioPredicas.html">Audio/Predicas</a></li>
-                        <li><a href="BOLETIN.html">Boletin Informativo</a></li>
-                  </ul>
-                </li>
-                     
-                <li><a href="Contactos.html">Contactos</a></li>
-                </ul>
-        </div>
-        </nav>
-	</section>
-	
-    <section id="CuerpoFondo">
-    	<div>
-    		<h2 id="bienvenidos">CONTACTOS A NUESTRO</h2>
-    	</div >
-    	<p id="textoBien">
-    		ESCRIBENOS A NUESTRO CORREO :<br>
-            <BR>
-            <BR>
-            <BR>
-            REDES SOCIALES : <BR>
-           FACEBOOK <BR>
-            TWITTER <BR>
-            GOOGLE+ <BR>
-            YOUTUBE <BR>
-    	</p>
-    	<div id="VideoPresentacion">
- 
-    	</div>
-    </section>
-    <section id="lineadePie">
-    	
-    </section>
-	<footer id="PiePagina">
-    <section id="UBICANOS">
-            <H1>UBICANOS</H1>
-            <div id="Referencias">
-                <h1>ICA-Avenida Fernando Leon Arechua 344(Frente a ADCIJEI)<BR>
-                Tel. (056)231944<br>
-                Email: iacym-ica@hotmail.com
-                </h1>
-            </div>
-        </section>
-        <section id="redesSociales">
-            <H1>REDES SOCIALES</H1>
-            <section id="redesSocialesLogos">
-    <div class="caja-redes">
-    <a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
-    <a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
-    <a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
-    </div>
-            </section>
-        </section>
-        <section id="DerechosReservados">
-            <h5 id="CopyRight">
-                Todo para la Gloria de Dios | Copyright 2014 IACYM-Ica| Design by <a id="Mipag" href="">RkTecnology</a>
-            </h5>
-        </section>
-</footer>       
+	<footer class="espacio">
+		<section id="prepie"></section>
+		<section id="final">
+			<div id="info">
+				<h2>IGLESIA ALIANZA CRISTIANA <br/>Y MISIONERA-ICA</h2>
+				<p>Av. Fernando León Arechua 344
+				(frente al ADCIJEI)<br/>
+				Tel.(056)231944<br/>
+				Email: iacym-ica@hotmail.com</p>
+			</div>
+			<div id="redessociales">
+				<h2>SIGUENOS EN:</h2>
+			    <div id="iconoooos">
+				   <div class="caja-redes">
+				   <a href="https://twitter.com/LaAJuvenil" class="icon-button twitter" target="_blank"><i class="icon-twitter"></i><span></span></a>
+				   <a href="https://www.facebook.com/alianzaica" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
+				   <a href="https://plus.google.com/112488149102916249049/posts" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span></span></a>
+					</div>
+			     </div>
+			</div>
+			<p id="copy">Everything for Glory to GOD|Copyright 2014 IACYM-Ica| Design by <a class="mipag" href="#">RkTecnology</a></p>
+		</section>
+	</footer>
+	<script type="text/javascript" src="MyJquery.js"></script>
+	<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?35Nri9XIODASZnic2rYZiJVNL6Kqypi6";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
 </body>
 </html>
+
+
+
+		

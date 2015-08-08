@@ -1,0 +1,28 @@
+.back-recursos{
+   background-image: url("../image/recursos/iglesia alianza cristiana y misionera ica.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 723px;
+  max-width: 100%;
+}
+.Botonites {
+  /* width: 1368px; */
+  /* margin: 0 auto; */
+  text-align: center;
+  padding-top: 18em;
+}
+.fotosR:hover
+{
+  box-shadow: rgba(255, 4, 4, 0.79)0px 0px 50px;
+}
+@media(max-width:850px){
+.back-recursos{
+   background-image: url("../image/recursos/movil-igle.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 723px;
+  max-width: 100%;
+}
+}

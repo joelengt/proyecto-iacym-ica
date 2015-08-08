@@ -1,0 +1,27 @@
+.logo_main
+{
+	width: 302px;
+	padding-bottom:.2em;
+	margin-top:-.2em;
+}
+h1 img :hover
+{
+	width: 240px
+}
+@media(max-width: 700px){
+.logo_main
+{
+  width: 245px;
+  padding-bottom: .2em;
+  margin-top: 0em;
+}
+}
+@media(max-width:500px){
+.logo_main
+{
+  width: 190px;
+  padding-bottom: .2em;
+  margin-top: 0.3em;
+}
+
+}

@@ -1,0 +1,61 @@
+#ima22 {
+  width: 100%;
+  max-width: 100%;
+}
+.centr-C
+{
+  color: rgb(5, 224, 208);
+  font-family: 'Oswald', sans-serif;
+  padding-top: 0.3em;
+  text-align: center;
+  width: 100%;
+  font-size: 3.1em;
+  padding-bottom: .3em;
+}
+#cajitacelu
+{width: 500px;
+  margin: 0 auto;
+}
+#cajitacelu img
+{
+	max-width: 100%;
+}
+@media(max-width:585px){
+#cajitacelu 
+{
+  width: 100%;
+  margin: 0 auto;
+}
+}
+.botonescelu
+{
+
+}
+.notengocelu
+{
+  max-width: 100%;
+}
+@media(min-width:586px){
+.botonescelu
+{
+  width: 463px;
+  margin: 0 auto;
+}
+.notengocelu
+{
+  max-width: 100%;
+}
+}
+@media(min-width:1150px){
+.botonescelu
+{
+  width: 60px;
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  margin-left: 24%;
+}
+.notengocelu
+{
+  max-width: 328px;
+}
+}
