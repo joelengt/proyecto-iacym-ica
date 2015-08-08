@@ -11,8 +11,19 @@ body
 {
 	max-width: 100%;
 }
-#botines {
-  max-width: 100%;
+.botines{
+  color: white;
+  text-decoration: none;
+  background: #FF1414;
+  font-family: 'Oswal',sans-serif;
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-size: 1.1em;
+  border-bottom: 5px solid #A71515;
+}
+.botines:hover{
+  background: #E7EF29;
+  border-bottom: 5px solid #A6B52B;
 }
 .contenedorPadre
 {
@@ -26,9 +37,9 @@ body
 }
 .botonEnterate {
   position: relative;
-  top: -90px;
-  margin-left: 15.4%;
-  width: 70%;
+  top: -69px;
+  width: 100%;
+  text-align: center;
 }
 @media(max-width:875px){
 .cajitas11 {
@@ -48,20 +59,19 @@ body
    max-width: 100%;
 }
 }
-
 @media(max-width:1190px){
 .botonEnterate {
   position: relative;
-  top: -69px;
-  margin-left: 15.4%;
-  width: 70%;
+  top: -62px;
+  width: 100%;
+  text-align: center;
 }
 }
 @media(max-width:600px){
 .botonEnterate {
   position: relative;
-  top: -88px;
-  margin-left: 15.4%;
-  width: 67%;
+  top: -63px;
+  width: 100%;
+  text-align: center;
 }
 }

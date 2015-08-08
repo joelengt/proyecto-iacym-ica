@@ -6,15 +6,33 @@
   height: 723px;
   max-width: 100%;
 }
-.Botonites {
-  /* width: 1368px; */
-  /* margin: 0 auto; */
+.box__btn--celulas{
   text-align: center;
-  padding-top: 18em;
+  padding-top: 16em;
 }
-.fotosR:hover
-{
-  box-shadow: rgba(255, 4, 4, 0.79)0px 0px 50px;
+  .btn_style{
+    text-decoration: none;
+    font-family: 'Oswal', sans-serif;
+    display: block;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    font-size: 1.7em;
+  }
+  .btn_style--red{
+    background: #FF2B2B;
+    border-bottom: 5px solid rgb(173, 28, 28);
+  }
+  .btn_style--red:hover{
+   background: #0597E2;
+   border-bottom: 5px solid rgb(27, 114, 158);
+    }
+@media(min-width:850px){
+  .btn_style {
+      display: inline-block;
+      padding: 1em 3em;
+  }
 }
 @media(max-width:850px){
 .back-recursos{
