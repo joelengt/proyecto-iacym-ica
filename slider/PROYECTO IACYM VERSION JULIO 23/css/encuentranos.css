@@ -1,0 +1,46 @@
+.btn_contacto {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  padding: 1em 1em 1em 1em;
+  background: rgba(0, 0, 0, 0.75);
+  }
+.caja_con {
+  padding-top: 8em;
+  margin: 0px auto;
+  width: 285px;
+  padding-left: 0em;
+}
+.btn_contacto:hover
+{
+  background: rgba(255, 255, 255, 0.92);
+  color: black;
+  box-shadow: rgba(0,0,0,.5)2px 2px 40px;
+}
+@media (max-width:850px){
+.caja_con
+{
+  padding-top: 8em;
+  margin: 0px auto;
+  width: 285px;
+  padding-left: 0em;
+}
+}
+@media(min-width:670px){
+.mama {
+  background-image: url("../images/cerca/auto-find.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 510px;
+}
+}
+@media (max-width: 670px){
+.mama 
+{
+  background-image: url("../images/cerca/celll.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 803px;
+}
+

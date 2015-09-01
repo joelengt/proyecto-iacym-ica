@@ -5,17 +5,11 @@
 	background: rgb(249,252,247); /* Old browsers */
 	
 }
-/*header
-{
-	box-shadow: rgba(0,0,0,.3)2px 2px 20px;
-}*/
 body
 {
 	margin: 0px;
 
 }
-/* Para Safari */
-
 h1
 {
 	margin: 0px;
@@ -323,4 +317,135 @@ nav ul li a:active
   margin-left: 67%;
   font-size: 1em;
 }
+}
+/*Anuncion descarga*/
+.anuncio-main{
+width: 100%;
+height: auto;
+background-color: #E4E4E4;
+font-family: Arial;
+padding: 1em 0 1em 0;
+position: relative;
+}
+.box-anuncion__content{
+  text-align: left;
+  margin-left: 10%;
+  width: 70%;
+}
+.anuncio-main h2{
+text-transform: uppercase;
+color: #0194E0;
+font-size: 2em;
+}
+.anuncio-main p{
+color: #353535;
+font-size: 1.4em;
+}
+.box-link{
+  position: absolute;
+  top: 34px;
+  right: 44px;
+}
+  .box-link .link{
+    padding: 1em 1.4em;
+    background-color: #FF3434;
+    border-radius: 20px;
+    border-bottom: 5px solid #B72424;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .box-link .link:hover{
+    background-color: orange;
+    border-bottom: 5px solid #B17C1B;
+  }
+@media (max-width: 860px){
+  .box-anuncion__content{
+    width: 50%;
+  }
+}
+@media (max-width: 680px){
+  .box-anuncion__content{
+    text-align: center;
+    width: 82%;
+    margin: 0 auto;
+  }
+  .box-link{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 83%;
+    display: block;
+  }
+  .anuncio-main{
+    padding-bottom: 6em;
+  }
+}
+
+/*Pagina de descarga*/
+.Download-main{
+  text-align: center;
+  background-color: #DEDEDE;
+  padding: 3em 0 34% 0;
+  position: relative;
+}
+.Donwload__title{
+   text-align: center;
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+.Donwload__title h2{
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: Arial;
+  color: #0896DE;
+}
+.Donwload__title p{
+  font-size: 1.5em;
+  font-family: Arial;
+  color: #272727;
+}
+.Download-link{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 4em;
+}
+.Download-link{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 4em;
+}
+.TWO{
+  margin-top: 8em;
+}
+.Download-link .link{
+    padding: 1em 1.4em;
+    background-color: #46F359;
+    border-radius: 20px;
+    border-bottom: 5px solid #49B154;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial;
+    font-size:  1.7em;
+  }
+.Download-link .link:hover{
+  background-color: orange;
+  border-bottom: 5px solid #B17C1B;
+}
+@media (max-width: 900px){
+  .Download-main{
+    padding: 3em 0 74% 0;
+  }
+  .Download-link .link{
+    font-size: 1.5em; 
+  }
 }

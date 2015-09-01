@@ -1,0 +1,53 @@
+#textlogoigle
+{
+	  font-family: 'Arimo', sans-serif;
+	  text-align: center;
+	  font-size: 18pt;
+	  padding: .8em .8em;
+	  color: black;
+}
+#saludos 
+{
+  text-align: justify;
+  font-size: 18pt;
+  margin-top: 0.2em;
+  font-family: 'Lato', sans-serif;
+}
+.botones_main img
+{
+	  max-width: 100%;
+}
+#texteo
+{
+	  font-family: 'Lato', sans-serif;
+	  line-height: 2em;
+}
+#texteo h3
+{
+	font-size: 22pt;
+	text-align: center;
+	color: #46DCFF;
+}
+#texteo h4
+{
+  font-size: 19pt;
+  text-align: center;
+  color: #000000;
+  padding-top: 1.3em;
+}
+.caja_saludo 
+{
+  width: 14em;
+  background: rgba(18, 18, 18, 0.73);
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 19px;
+}
+@media(max-width:500px){
+  #saludos {
+  text-align: justify;
+  font-size: 15pt;
+  margin-top: 0.2em;
+  font-family: 'Lato', sans-serif;
+}
+}

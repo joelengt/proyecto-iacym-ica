@@ -1,0 +1,326 @@
+.headerPrincipal
+{
+	height:117px;
+	width: 100%;
+	background: rgb(249,252,247); /* Old browsers */
+	
+}
+/*header
+{
+	box-shadow: rgba(0,0,0,.3)2px 2px 20px;
+}*/
+body
+{
+	margin: 0px;
+
+}
+/* Para Safari */
+
+h1
+{
+	margin: 0px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 4%;
+}
+nav ul li a
+{
+	padding: 2.8em .5em 3em .5em;
+	color: black;	
+}
+nav ul li a:hover
+{
+  border-top: 6px solid rgb(0, 255, 167);
+  color: rgb(0, 0, 0);
+  background: rgba(0, 255, 236, 0.31);
+}
+nav ul li a:active
+{
+	border-top: 6px solid rgb(243, 171, 39);
+	color:blue;
+}
+nav ul li a::visited
+{
+	border-top: 6px solid rgb(243, 171, 39);
+	color:blue;
+}
+#navPrincipal
+{
+	/*le asigno la ubicacion del nav*/
+	display: inline-block;
+	position: relative;
+	top: -70px;
+	margin-left: 39%;
+}
+#navPrincipal ul
+{
+	/*le quito la forma de lista*/
+	margin: 0px;
+	padding: 0px;
+}
+#navPrincipal ul li
+{
+	/*le quito los puntos y la forma de lista*/
+	list-style-type: none;
+	display: inline-block;
+}
+#navPrincipal ul li a
+{
+	/*le doy color y personalizo a las letras internas*/
+	font-family: 'Lato', sans-serif;
+	/*le quito las decoracion de subtitulo*/
+	text-decoration: none;
+	/*le coloco una separacion a cada indice*/
+}
+#cajitas
+{
+	margin-left: 93%;
+	position: relative;
+	top: -40px;
+	display: inline-block;
+}
+.nav_movil
+{
+	display: none;
+}
+.mostrar-form
+{
+  display: none;
+  	/*le doy color y personalizo a las letras internas*/
+  font-family: 'Lato', sans-serif;
+	/*le quito las decoracion de subtitulo*/
+  text-decoration: none;
+	/*le coloco una separacion a cada indice*/
+  color:black;
+  padding: 1em 1em 1em 1em;	
+}
+.mostrar-form:hover
+{
+  color: rgb(0, 0, 0);
+  background: rgba(0, 255, 236, 0.31);
+}
+.menu_movil
+{
+	display: none;
+}
+@media(max-width:1130px){
+#navPrincipal {
+  display: inline-block;
+  position: relative;
+  top: -70px;
+  margin-left: 32%;
+
+}
+.nav_movil
+{
+	display: none;
+}
+}
+@media(max-width:1213px){
+#navPrincipal {
+  display: inline-block;
+  position: relative;
+  top: -70px;
+  margin-left: 32%;
+
+}
+.nav_movil
+{
+	display: none;
+
+}
+}
+@media(max-width:1100px){
+#navPrincipal {
+  display: none;
+}
+
+/*Menu movil*/
+.nav_movil {
+  display: inline-block;
+  position: relative;
+  top: -55px;
+}
+.menu_movil
+ {
+  background: rgb(187, 187, 187);
+  width: 100%;
+  height: 118px;
+}
+nav ul li a
+{
+	padding: 2.8em .5em 3em .5em;
+	color: black;	
+}
+nav ul li a:hover
+{
+  border-top: 6px solid rgb(0, 255, 167);
+  color: rgb(0, 0, 0);
+  background: rgba(0, 255, 236, 0.31);
+}
+nav ul li a:active
+{
+	border-top: 6px solid rgb(243, 171, 39);
+	color:blue;
+}
+nav ul li a::visited
+{
+	border-top: 6px solid rgb(243, 171, 39);
+	color:blue;
+}
+.nav_movil 
+{
+  display: inline-block;
+  margin-left: 1%;
+  text-align: center;
+  padding: 6.6em 0em;
+  text-align: center;
+  width: 100%;
+}
+.nav_movil ul
+{
+	/*le quito la forma de lista*/
+	margin: 0px;
+	padding: 0px;
+}
+.nav_movil ul li
+{
+	/*le quito los puntos y la forma de lista*/
+	list-style-type: none;
+	display: inline-block;
+}
+.nav_movil ul li a
+{
+	/*le doy color y personalizo a las letras internas*/
+	font-family: 'Lato', sans-serif;
+	/*le quito las decoracion de subtitulo*/
+	text-decoration: none;
+	/*le coloco una separacion a cada indice*/
+}
+#cajitas
+{
+	margin-left: 93%;
+	position: relative;
+	top: -40px;
+	display: inline-block;
+}
+.nav_movil
+{
+	display: inline-block;
+}
+}
+
+
+@media(max-width:765px){
+#navPrincipal {
+  display: none;
+}
+
+/*Menu movil*/
+.menu_movil 
+{
+  background: rgb(187, 187, 187);
+  width: 100%;
+  height: 593px;
+}
+nav ul li a
+{
+	padding: 2em 1em 2em 1em;
+	color: black;	
+}
+nav ul li a:hover
+{
+  border-top:none;
+  color: rgb(0, 0, 0);
+  background: none;
+}
+.nav_movil ul li:hover
+{
+  border-top: 6px solid rgb(0, 255, 167);
+  color: rgb(0, 0, 0);
+  background: rgba(0, 255, 236, 0.30);
+}
+.nav_movil ul li:active
+{
+	border-top: 6px solid rgb(243, 171, 39);
+	color:blue;
+}
+nav ul li a:active
+{
+	border-top: none;
+	color:none;
+}
+.nav_movil 
+{
+  text-align: center;
+  width: 100%;
+  padding: 3.4em 0em;
+}
+.nav_movil ul {
+  margin: 0px;
+  padding: 0px;
+}
+.nav_movil ul li {
+  list-style-type: none;
+  padding: 2em;
+  text-align: center;
+  display: block;
+}
+.nav_movil ul li a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+.nav_movil
+{
+	display: inline-block;
+}
+}
+
+
+
+@media(max-width:1100px){
+.mostrar-form {
+  display: block;
+  position: relative;
+  top: -93px;
+  margin-left: 83%;
+  font-size: 1.4em;
+}
+}
+@media(max-width:850px){
+.mostrar-form {
+  display: block;
+  position: relative;
+  top: -97px;
+  margin-left: 78%;
+}
+	
+}
+@media(max-width:700px){
+.mostrar-form {
+  display: block;
+  position: relative;
+  top: -84px;
+  margin-left: 75%;
+}	
+}
+@media(max-width:600px){
+.mostrar-form {
+  display: block;
+  position: relative;
+  top: -84px;
+  margin-left: 71%;
+  font-size: 1.4em;
+}
+	
+}
+@media(max-width:500px){
+.mostrar-form
+{
+  display: block;
+  position: relative;
+  top: -70px;
+  margin-left: 67%;
+  font-size: 1em;
+}
+}

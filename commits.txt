@@ -1,0 +1,17 @@
+commit 24de672d3326445cac0591682f9355dea6f6aed1
+Author: Joel Gonzales Tipismana <joelengt@gmail.com>
+Date:   Sat Aug 8 09:30:16 2015 -0500
+
+    cambios nav dinamico, version movil mejorada, slider mes julio 2015
+
+commit 1b3a05642226f8b4a4eff6df634a5faf15dabc67
+Author: Joel Gonzales Tipismana <joelengt@gmail.com>
+Date:   Sat Aug 8 09:28:56 2015 -0500
+
+    cambios masivos header y navegadores slider version junio 2015
+
+commit 550b9717731cbefc14711df451d153021ff84ee2
+Author: Joel Gonzales Tipismana <joelengt@gmail.com>
+Date:   Sat Aug 8 09:26:52 2015 -0500
+
+    archivos bases del proyecto version 1.0

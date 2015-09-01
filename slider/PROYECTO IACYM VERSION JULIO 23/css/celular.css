@@ -1,0 +1,57 @@
+#ima22 {
+  width: 100%;
+  max-width: 100%;
+}
+.centr-C
+{
+  color: rgb(5, 224, 208);
+  font-family: 'Oswald', sans-serif;
+  padding-top: 0.3em;
+  text-align: center;
+  width: 100%;
+  font-size: 3.1em;
+  padding-bottom: .3em;
+}
+#cajitacelu
+{width: 500px;
+  margin: 0 auto;
+}
+#cajitacelu img
+{
+	max-width: 100%;
+}
+.box__btn--celulas{
+  text-align: center;
+}
+  .btn_style{
+    text-decoration: none;
+    font-family: 'Oswal', sans-serif;
+    display: block;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    font-size: 1.5em;
+  }
+  .btn_style--orange{
+    background: #FBAD12;
+    border-bottom: 5px solid rgba(251, 139, 18, 0.89);
+  }
+  .btn_style--orange:hover{
+   background: #95E021;
+   border-bottom: 5px solid rgb(60, 88, 15);
+    }
+@media(max-width:585px){
+  #cajitacelu 
+  {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media(min-width:850px){
+  .btn_style {
+      display: inline-block;
+      padding: 1em 4em;
+      font-size: 1.7em;
+  }
+}

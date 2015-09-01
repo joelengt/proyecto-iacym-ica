@@ -1,0 +1,77 @@
+body 
+{
+  margin: 0px;
+  background: rgb(232, 232, 232);
+}
+.image111 {
+  width: 100%;
+  max-width: 100%;
+}
+.Mimg
+{
+	max-width: 100%;
+}
+.botines{
+  color: white;
+  text-decoration: none;
+  background: #FF1414;
+  font-family: 'Oswal',sans-serif;
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-size: 1.1em;
+  border-bottom: 5px solid #A71515;
+}
+.botines:hover{
+  background: #E7EF29;
+  border-bottom: 5px solid #A6B52B;
+}
+.contenedorPadre
+{
+	overflow: hidden;
+}
+.cajitas11 
+{
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+}
+.botonEnterate {
+  position: relative;
+  top: -69px;
+  width: 100%;
+  text-align: center;
+}
+@media(max-width:875px){
+.cajitas11 {
+  width: 46%;
+  margin-left: 2.5%;
+  float: left;
+}
+}
+@media(max-width:600px){
+.cajitas11 {
+  width: 340px;
+  margin-left: -11.5%;
+  float: none;
+  margin: 0 auto;
+}
+.Mimg {
+   max-width: 100%;
+}
+}
+@media(max-width:1190px){
+.botonEnterate {
+  position: relative;
+  top: -62px;
+  width: 100%;
+  text-align: center;
+}
+}
+@media(max-width:600px){
+.botonEnterate {
+  position: relative;
+  top: -63px;
+  width: 100%;
+  text-align: center;
+}
+}
